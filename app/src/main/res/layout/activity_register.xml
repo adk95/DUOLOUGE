@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.RegisterActivity">
+
+<include layout="@layout/app_bar_layout" android:id="@+id/app_bar_register"/>
+
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLEASE ENTER YOUR DETAILS"
+        android:textSize="25sp"
+        android:layout_below="@+id/app_bar_register"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+
+<android.support.design.widget.TextInputLayout
+    android:paddingTop="200dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/regName">
+
+    <EditText
+        android:inputType="textPersonName"
+        android:hint="Enter you name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/regEmail"
+    android:layout_below="@id/regName">
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter you Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/regPassword"
+    android:layout_below="@id/regEmail">
+
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.TextInputLayout>
+
+
+
+<Button
+    android:layout_marginTop="30dp"
+    android:id="@+id/RegisterLoginInfoButton"
+    android:layout_below="@+id/regPassword"
+    android:layout_width="150dp"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content"
+    android:text="SIGN UP"
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

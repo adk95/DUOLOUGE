@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "249407854893",
+    "firebase_url": "https://ctup-3f31c.firebaseio.com",
+    "project_id": "ctup-3f31c",
+    "storage_bucket": "ctup-3f31c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249407854893:android:0c1bd667311797a1",
+        "android_client_info": {
+          "package_name": "com.hazyaz.ctup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249407854893-mrtnvq3dfmleg370v3p3vcl9gu3kt1ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hazyaz.ctup",
+            "certificate_hash": "b7510f2413a45f333a9e129e57d8962283c09b26"
+          }
+        },
+        {
+          "client_id": "249407854893-ctap2c1vv9pbfr3cbq3ufjgspsn25vrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hazyaz.ctup",
+            "certificate_hash": "f43209f7afc4e31ecfc10bbf226b381b87103f52"
+          }
+        },
+        {
+          "client_id": "249407854893-845njokdd8jjkrs4at1jhjs1f8r04heq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARXu2uqLwHBJjSw5sAHho4vA7fLPDFGRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249407854893-845njokdd8jjkrs4at1jhjs1f8r04heq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

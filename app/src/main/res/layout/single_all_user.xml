@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cirlce_user_all"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="16dp"
+        tools:src="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:paddingTop="16dp"
+        android:layout_toRightOf="@id/cirlce_user_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sara disuzaa"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:paddingTop="5dp"
+        android:id="@+id/user_status"
+        android:layout_toRightOf="@id/cirlce_user_all"
+        android:layout_below="@id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hey how are you doing man"/>
+
+<ImageView
+    android:id="@+id/OnlineDot"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="30dp"
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:layout_toRightOf="@+id/user_name"
+    />
+
+
+
+
+</RelativeLayout>
